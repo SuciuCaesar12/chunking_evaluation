@@ -57,6 +57,8 @@ experiments
 │   ├── metrics.csv       # metrics table
 ```
 
+The results are also available on [Weights and Biases](https://wandb.ai/suciucezar07/chunking_evaluation/runs/4crcgyvk?nw=nwusersuciucezar07). Take note that the heatmaps are not available there, only locally.
+
 ## Evaluation
 
 ### Choice of Corpora
