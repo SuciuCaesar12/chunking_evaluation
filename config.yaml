@@ -2,11 +2,11 @@ batch_size: 500  # number of documents to load at once in a chroma collection
 
 paths:
   questions: data/questions_df.csv
-  chroma: null   # where to store chroma collections
+  chroma: temp/chroma   # where to store chroma collections
                         # set to null if you don't want to persist the collections
   corpora: data/datasets/state_of_the_union.md
   experiments: experiments  # where to store experiment results
-  wandb: null   # where to store wandb runs
+  wandb: temp   # where to store wandb runs
                 # set to null if you don't want to use weights and biases
 
 embeddings:
